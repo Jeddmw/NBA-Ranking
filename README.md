@@ -4,7 +4,7 @@ Uses method described [here](http://blog.biophysengr.net/2012/03/eigenbracket-20
 
 Data is extracted from [landofbasketball.com](http://www.landofbasketball.com/).
 
-In order to run this program download the [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/?), the [Networkx library](https://networkx.github.io/documentation/latest/install.html), and the [requests library](http://docs.python-requests.org/en/master/user/install/).
+In order to run this program download the [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/?), the [Networkx library](https://networkx.github.io/documentation/latest/install.html), the [requests library](http://docs.python-requests.org/en/master/user/install/), and the [psycopg2 library](http://initd.org/psycopg/download/).
 
 This program also requires [PostgreSQL](https://www.postgresql.org/download/); after download, create a database named "nbarankings" and a table named "rankings" with columns "year", "team", and "score", with types VARCHAR(10), VARCHAR(50), and float.
 
