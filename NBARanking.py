@@ -249,5 +249,5 @@ for count in range(0, 72):
 	        cur.execute(sql, (year, team_ranklist[i], float(team_scorelist[i])))
 	        conn.commit()
 
-	# home = expanduser("~")
-	# cur.execute("COPY rankings TO "  + "'" + home + "/rankings.csv' DELIMITER ',' CSV HEADER")
+	home = expanduser("~")
+	cur.execute("COPY rankings TO "  + "'" + home + "/rankings.csv' DELIMITER ',' CSV HEADER")
