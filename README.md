@@ -2,7 +2,7 @@
 
 Uses method described [here](http://blog.biophysengr.net/2012/03/eigenbracket-2012-using-graph-theory-to.html) to rank NBA teams.
 
-Data is extracted from landofbasketball.com.
+Data is extracted from [landofbasketball.com](http://www.landofbasketball.com/).
 
 In order to run this program download the [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/?), the [Networkx library](https://networkx.github.io/documentation/latest/install.html), and the [requests library](http://docs.python-requests.org/en/master/user/install/).
 
