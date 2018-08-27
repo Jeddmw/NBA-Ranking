@@ -112,5 +112,3 @@ year          team                          score
 ```
 
 Ranking is based on every game played by each team, including the playoffs/finals.
-
-Everything is inserted into a PostgreSQL database.
