@@ -6,7 +6,7 @@ Data is extracted from [landofbasketball.com](http://www.landofbasketball.com/).
 
 In order to run this program download the [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/?), the [Networkx library](https://networkx.github.io/documentation/latest/install.html), the [requests library](http://docs.python-requests.org/en/master/user/install/), and the [psycopg2 library](http://initd.org/psycopg/download/).
 
-This program also requires [PostgreSQL](https://www.postgresql.org/download/); after download, query this:
+This program also requires [PostgreSQL](https://www.postgresql.org/download/); after download and creation of a database, query this:
 
 ```
 CREATE TABLE rankings (
