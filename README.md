@@ -8,11 +8,13 @@ In order to run this program download the [BeautifulSoup library](https://www.cr
 
 This program also requires [PostgreSQL](https://www.postgresql.org/download/); after download, query this:
 
+```
 CREATE TABLE rankings (
     year character varying(10),
     team character varying(50),
     score double precision
 );
+```
 
 To run from command line:
 ```
